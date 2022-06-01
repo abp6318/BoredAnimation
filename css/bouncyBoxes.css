@@ -1,0 +1,28 @@
+.cube{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform-style: preserve-3d;
+    border:thin solid black;
+}
+
+.cubeFace {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.top{
+    background-color: blue;
+    transform: rotateX(60deg) rotateY(0deg) rotateZ(45deg);
+}
+.left{
+    background-color: red;
+    transform: rotateX(-30deg) rotateY(45deg) rotateZ(0deg);
+
+}
+.right{
+    background-color: green;
+    transform: rotateX(-30deg) rotateY(-45deg) rotateZ(0deg);
+
+}
